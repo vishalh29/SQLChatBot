@@ -6,4 +6,4 @@ langchain-openai==0.0.6
 mysql-connector-python==8.3.0
 groq==0.4.2
 langchain-groq==0.0.1
-pip install python-dotenv
+python-dotenv
