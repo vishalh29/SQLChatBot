@@ -92,9 +92,9 @@ if "chat_history" not in st.session_state:
 
 load_dotenv()
 
-st.set_page_config(page_title="Chat with MySQL", page_icon=":speech_balloon:")
+st.set_page_config(page_title="SQLChatBot", page_icon=":speech_balloon:")
 
-st.title("Chat with MySQL")
+st.title("SQLChatBot")
 
 with st.sidebar:
     st.subheader("Settings")
