@@ -144,4 +144,4 @@ if st.button("🗑️ Clear Chat"):
     st.session_state["messages"] = [
         {"role": "system", "content": "You are a helpful assistant. Answer in detail."}
     ]
-    st.experimental_rerun()
+    st.rerun()
